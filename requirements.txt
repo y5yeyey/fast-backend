@@ -1,3 +1,4 @@
 fastapi>=0.70.0
 pytest>=6.0.0
 uvicorn
+pylint
