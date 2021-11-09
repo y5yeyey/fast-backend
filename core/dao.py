@@ -1,5 +1,5 @@
 import asyncio
-from data_model import Item, ModelType
+from core.data_model import Item, ModelType
 import random
 from fastapi.logger import logger
 import logging

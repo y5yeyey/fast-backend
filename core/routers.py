@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Depends, APIRouter, HTTPException
 from fastapi.logger import logger
-from data_model import Item, ModelType
-from dao import Dao
+from core.data_model import Item, ModelType
+from core.dao import Dao
 
 router = APIRouter(
     prefix="/items",
